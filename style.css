@@ -1,0 +1,40 @@
+.body {
+  font-family: "Roboto", sans-serif;
+}
+.last-image {
+  height: 500px;
+  width: 650px;
+  padding-top: 80px;
+}
+.product-image img {
+  background-color: #f1f1f1;
+  border-radius: 5%;
+}
+.others {
+  padding-top: 100px;
+}
+.button-edit {
+  background-color: #a4bc46;
+}
+section {
+  margin: 5% 0;
+}
+.button {
+  text-decoration: none;
+  font-size: 22px;
+  padding: 15px 20px;
+  background-color: #9eb73d;
+  color: white;
+  border-radius: 5px;
+}
+.fashion-footer {
+  background-color: white;
+  border-top: none;
+}
+.card-1 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.navbar-color {
+  background-color: #fffbf0;
+}
