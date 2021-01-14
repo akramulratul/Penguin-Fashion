@@ -31,7 +31,7 @@
                         <a class="nav-link active" href="#about us">About us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+                        <a class="nav-link active" href="#contact" tabindex="-1" aria-disabled="true">Contact us</a>
                       </li>
                     </ul>
                   </div>
@@ -203,14 +203,38 @@
 </section>
 </main>
 <footer>
-  <section>
-
+  <section id="contact">
+    <h3 class="text-center">For Contact</h3>
+    <div class="container mt-5">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="number">Contact Number</label>
+        <input type="text" id="number" name="Number" placeholder="Give your Number">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="Australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">Usa</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
   </section>
   <section id="subscribe"style="height: 300px" class="mt-5 d-flex justify-content-center align-items-center bg-success">
     <div>
       <h1>LET'S STAY IN TOUCH</h1>
-      <h6>Get updates on sales, specials and more</h6>
-      <input type="text" placeholder="">
+      <h6>Get updates for offer, specials and more</h6>
+      <input type="text" placeholder="Give Your Email Address">
       <button type="button" class="btn btn-warning">SUBMIT</button>
     </div>
   </section>
